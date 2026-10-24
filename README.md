@@ -4,22 +4,19 @@
 A fun interactive way to help the needs of children learning about the US States because making it less boring is always exciting. My page will be a different way to help children learn about the states.
 
 ## The plan
-It to build and interactive game/site were children learn the states and facts about them.
+It to build a site were children learn the states and facts about them.
+
 ### Data
 Dataset: `us-states`
 
-| Field | Example value |
-| --- | --- |
-| `Name` | Gloomhaven |
-| `Minimum players` | 1.0 |
 
-Fields my page shows: `Name`, `Minimum players`, `Maximum players`.
 
 ### Sections
-- What a visitor sees, top to bottom.
+- The site displays the 50 US states broken down in the five regions.
 
-### User action
-- A visitor types ______ and the page ______.
+## Where the data comes from
+The `board-games` dataset, from my own data API:
+"https://student-data-api.shy-wood-95d7.workers.dev/api/v1/datasets/us-states/records?limit=50"
 
 ## Team
 Accountability partner: @Donald

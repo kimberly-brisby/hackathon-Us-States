@@ -9,10 +9,14 @@ function Southwest ({records}){
 const southwestSections = southwestRecords.map(state => ( 
     <div className="state-card">
         <h2>{state["State Name"]}</h2>
+        &nbsp;
         <p>Capital: {state.Capital}</p>
+        &nbsp;
         <p>Code Name: {state["Code Name"]}</p>
+        &nbsp;
         <p>Nickname: {state.Nickname}</p>
-        <img src={state.Image} alt={`Map of ${state["State Name"]}`} />
+        &nbsp;
+        <img src={state.Map} alt={`Map of ${state["State Name"]}`} />
     </div>
 ))
 console.log(southwestRecords)
