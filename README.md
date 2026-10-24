@@ -21,6 +21,12 @@ The `board-games` dataset, from my own data API:
 ## Team
 Accountability partner: @Donald
 
+## Reflection
+What I planned: To build a site that displayed the 50 US States. 
+What shipped: The five regions in there own part from const and filter it through a map from the API.
+What changed and why: I changed to layout to make readable and I just listed the states in the region instead have the user search for them one by one.
+
+
 
 ## Links
 - Live: https://YOUR-SITE.netlify.app
