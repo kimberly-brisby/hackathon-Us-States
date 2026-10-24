@@ -23,5 +23,5 @@ Accountability partner: @Donald
 
 
 ## Links
-- Live: https://YOUR-SITE.netlify.app
-- Repo: https://github.com/kimberly-brisby/hackathon
+- Live: https://us-states-api.netlify.app/
+- Repo: https://github.com/kimberly-brisby/hackathon-Us-States.git
