@@ -9,6 +9,7 @@ import Southeast from './SoutheastStatesCard'
 import West from './WestStatesCard'
 import Midwest from './MidwestStates'
 import Southwest from './SouthwestStatesCard'
+import LikeButton from '../LikeButton'
 
 
 function App() {
@@ -42,6 +43,7 @@ const { records, loading, error } = useFetchData(url)
       <Midwest records={records} />
       <West records={records} />
     </div>
+    <LikeButton />
   </article>
   )  
       
